@@ -8,8 +8,8 @@ To-do-List application is to display the to do list of the user which changes fr
 
 ### Team members 
 
-1. [Sri Sathya Mamidala](https://github.com/srisathyamamidala)
-2. [Prasanna Arla](https://github.com/prasannaarla)
+1. [Sri Sathya Mamidala](https://github.com/srisathyamamidala)-Backend Developer
+2. [Prasanna Arla](https://github.com/prasannaarla)-Frontend Developer
 
 ### Requirements
 
