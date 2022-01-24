@@ -33,6 +33,9 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 
 ---
 
+### UI rough sketch
+<img src="/images/UI.jpeg" width="380" height="480">
+
 #### The remaining details of the project will be added later while doing the project.
 
 
