@@ -32,7 +32,13 @@ After cloning the repo the developer needs to install the requirements which are
 The app needs to be deployed using the heroku. Initially the new app is created in the heroku by giving the name then the github of that project should be connected and the main branch should be deployed and run the app locally.
 
 ---
-[proposal](https://github.com/srisathyamamidala/GDP2-proposal)
+
+### Links: 
+
+* [proposal](https://github.com/srisathyamamidala/GDP2-proposal)
+* [Link to the documentation repo](https://github.com/srisathyamamidala/to-do-list-doc)
+* [Link to the documentation site](https://srisathyamamidala.github.io/to-do-list-doc/)
+
 
 
 
