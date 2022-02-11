@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+   
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: hsl(184, 67%, 80%);
+        
+        
+        justify-content: center;
+        
+
+    }
+    
+
+    .title{
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    h2 {
+        color: rgb(70, 32, 35);
+    }
+
+    .paragraph {
+        color: rgb(3, 26, 128);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .paragraph2 {
+        color: darkblue;
+
+    }
+    .header {  
+       
+        position : absolute;
+        
+        top: 0;
+        width: 100%;
+        height: 70px;
+        background: rgb(201, 198, 247);
+        text-align: center;
+
+        
+        }  
+
+    .footer {  
+        font-weight: bolder;
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 120px;
+        background: rgb(201, 198, 247);
+        text-align: center;
+
+        
+        }  
