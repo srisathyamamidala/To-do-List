@@ -32,7 +32,7 @@ After cloning the repo the developer needs to install the requirements which are
 
 ### Deployment
 
-The app needs to be deployed using the heroku. Initially the new app is created in the heroku by giving the name then the github of that project should be connected and the main branch should be deployed and run the app locally.
+The app needs to be deployed using the heroku. Initially the new app is created in the heroku by giving the name then the github of that project should be connected and the main branch should be deployed and run the app locally. Whenever you make any change in the repo and if their is no progress in heroku do  manual deployment.
 
 ---
 
@@ -43,7 +43,14 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 * [Link to the documentation site](https://srisathyamamidala.github.io/to-do-list-doc/)
 * [Link to the swagger repo](https://github.com/srisathyamamidala/swagger-to-do-list)
 
+### Security analyses:
+* Sonar Cloud
+* Codacy
 
+### Documentation Sites:
+
+* Swagger
+* User/Contributor Guide
 
 
 #### The remaining details of the project will be added later while doing the project.
