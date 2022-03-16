@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import django_heroku
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
@@ -26,6 +27,8 @@ SECRET_KEY = 'gn8u7x-2z09t7dbn5%@5p5dj@3q1d^y9e1v54r1me=fwm^aw@f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+ALLOWED_HOSTS = ['to-do-list.herokuapp.com']
 
 
 # Application definition
@@ -78,11 +81,11 @@ WSGI_APPLICATION = 'todoapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'todo',
-        'USER':'postgres',
-        'PASSWORD':'1234',
-        'HOST':'localhost',
-        'PORT': 5433
+        'NAME': 'd4huefq7t0tbvt',
+        'USER':'qsiyrgabpzhymd',
+        'PASSWORD':'132437e55bef4dd6f0fe4c1d0e9c5a9eb86bd2192c004a3f3b4dcf389e5bd7d4',
+        'HOST':'ec2-54-83-21-198.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -134,7 +137,9 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-STATIC_URL = '/static/'
+STATIC_URL = "/static/"
+django_heroku.settings(locals())
+# STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
