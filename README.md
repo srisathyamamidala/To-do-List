@@ -44,13 +44,9 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 * [Link to the swagger repo](https://github.com/srisathyamamidala/swagger-to-do-list)
 
 ### Security analyses:
-* Sonar Cloud
-* Codacy
 
-### Documentation Sites:
+* [Codacy](https://app.codacy.com/gh/srisathyamamidala/To-do-List/dashboard)
 
-* Swagger
-* User/Contributor Guide
 
 
 #### The remaining details of the project will be added later while doing the project.
