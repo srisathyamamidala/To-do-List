@@ -42,6 +42,7 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 * [Link to the documentation repo](https://github.com/srisathyamamidala/to-do-list-doc)
 * [Link to the documentation site](https://srisathyamamidala.github.io/to-do-list-doc/)
 * [Link to the swagger repo](https://github.com/srisathyamamidala/swagger-to-do-list)
+* [Link to wiki](https://github.com/srisathyamamidala/To-do-List/wiki)
 
 ### Security analyses:
 
