@@ -93,6 +93,7 @@ DATABASES = {
 
 
 # Update database configuration with $DATABASE_URL.
+
 import dj_database_url
 
 db_from_env = dj_database_url.config(conn_max_age=500)
@@ -140,6 +141,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
+
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
