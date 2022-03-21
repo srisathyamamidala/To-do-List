@@ -19,7 +19,7 @@ In order to build the app the we need the following:
 
 1. [Python](https://www.python.org/downloads/)
 2. [Visual studio code](https://visualstudio.microsoft.com/)
-3. [PostgreSQL](https://www.postgresql.org/download/)
+3. [SQLite](https://www.sqlite.org/index.html)
 4. [Hosted app](https://srisathyamamidala.github.io/to-do-list-doc/)
 
 ---
