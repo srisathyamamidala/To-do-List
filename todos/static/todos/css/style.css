@@ -1,8 +1,8 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0;
 }
+img{max-width: 100%; height: auto;margin-bottom: 5px;border-radius: 6PX;}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -29,7 +29,10 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  position: absolute; bottom: 0; left: 0; width:100%;
 }
+
+.baseContainer{min-height: 100vh; padding: 20px 0 80px; position: relative;}
 
 /* Customize container */
 @media (min-width: 768px) {
