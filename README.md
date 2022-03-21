@@ -20,7 +20,7 @@ In order to build the app the we need the following:
 1. [Python](https://www.python.org/downloads/)
 2. [Visual studio code](https://visualstudio.microsoft.com/)
 3. [SQLite](https://www.sqlite.org/index.html)
-4. [Hosted app](https://srisathyamamidala.github.io/to-do-list-doc/)
+
 
 ---
 
@@ -39,8 +39,6 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 ### Links: 
 
 * [proposal](https://github.com/srisathyamamidala/GDP2-proposal)
-* [Link to the documentation repo](https://github.com/srisathyamamidala/to-do-list-doc)
-* [Link to the documentation site](https://srisathyamamidala.github.io/to-do-list-doc/)
 * [Link to the swagger repo](https://github.com/srisathyamamidala/swagger-to-do-list)
 * [Link to wiki](https://github.com/srisathyamamidala/To-do-List/wiki)
 * [Link to issues](https://github.com/srisathyamamidala/To-do-List/issues)
