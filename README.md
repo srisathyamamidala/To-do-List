@@ -46,6 +46,9 @@ The app needs to be deployed using the heroku. Initially the new app is created 
 * [Link to issues](https://github.com/srisathyamamidala/To-do-List/issues)
 * [Link to milestones](https://github.com/srisathyamamidala/To-do-List/milestones)
 
+### Documentation
+* [swagger](https://srisathyamamidala.github.io/swagger-to-do-list/)
+
 ### Security analyses:
 
 * [Codacy](https://app.codacy.com/gh/srisathyamamidala/To-do-List/dashboard)
