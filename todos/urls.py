@@ -1,4 +1,5 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
+
 from todos import views, views_api, auth_views
 
 urlpatterns = [
@@ -18,4 +19,5 @@ urlpatterns = [
     url(r'^logout$', auth_views.logout, name='logout'),
     url(r'^signup$', auth_views.signup, name='signup'),
     url(r'^signup/submit$', auth_views.signup_submit, name='signup-submit'),
+    url('', include('social_django.urls')),
 ]

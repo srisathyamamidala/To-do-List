@@ -7,7 +7,9 @@ gunicorn==19.7.1
 packaging==16.8
 psycopg2==2.8.6
 pyparsing==2.2.0
-python-dotenv==0.6.4
 pytz==2017.2
 six==1.10.0
 whitenoise==3.3.0
+social-auth-app-django==3.4.0
+python-jose==3.3.0
+python-dotenv==0.19.2
