@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'todos'
+    'todos',
+    'social_django',
 ]
+
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -50,6 +54,31 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
+
+SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
+SOCIAL_AUTH_AUTH0_DOMAIN = 'dev-wujkkxar.us.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY = 'dVtRh6evTDkgV4d4CTibOELBLVnw3mEk'
+SOCIAL_AUTH_AUTH0_SECRET = '_EoKK5MDoTaM7as7lkF3s8GqjSgifreRJg9t5lDCk1zdZSdEQtjt9qvPXa_m7-cj'
+
+SOCIAL_AUTH_AUTH0_SCOPE = [
+    'openid',
+    'profile',
+    'email'
+]
+
+AUTHENTICATION_BACKENDS = {
+    'todos.views.Auth0',
+    'django.contrib.auth.backends.ModelBackend'
+}
+
+LOGIN_URL = '/login/auth0'
+LOGIN_REDIRECT_URL = '/'
+
+
+
+
 
 ROOT_URLCONF = 'todoapp.urls'
 
