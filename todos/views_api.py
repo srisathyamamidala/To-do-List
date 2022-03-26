@@ -8,6 +8,7 @@ class TodoListView(generics.ListCreateAPIView):
     serializer_class = TodoSerializer
 
 
-class TodoItemView(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Todo.objects.all()
-    serializer_class = TodoSerializer
+def todoItemView(request):
+    print(request.POST.get("id"))
+
+    

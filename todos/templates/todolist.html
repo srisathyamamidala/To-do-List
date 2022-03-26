@@ -9,6 +9,7 @@
     <a href="{% url 'index' %}?filter=pending"
         class="{% if filter == 'pending' %}active{% endif %} " >Pending</a>
 </div>
+{% csrf_token %}
 <div class="row marketing">
     <div class="todolist list-group">
         <ul class="list-unstyled">
@@ -32,7 +33,8 @@
                                 <span class="glyphicon glyphicon-remove"></span> Remove
                             </a>
 </div>
-<h4 class="list-group-item-heading">{{item.title}}</h4>
+<p class="list-group-item-heading">{{item.title}}</p>
+<h4 class="list-group-item-heading">{{item.description}}</h4>
 </div>
 </li>
 {% endfor %} {% endif %}
