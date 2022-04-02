@@ -56,7 +56,12 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+Then we get the application running locally.
+Next we need to push the application to the github repo either by using the github desktop or by using the git add push and commit commands.
+
 ---
+
+
 
 ### Deployment
 
