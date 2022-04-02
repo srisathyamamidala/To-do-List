@@ -28,6 +28,34 @@ In order to build the app the we need the following:
 
 After cloning the repo the developer needs to install the requirements which are mentioned in the requirements section. Then the developer can just open up the file and then the developer need to setup the database which is they need to login into the database for the web app to run locally.
 
+#### To run the application locally: 
+
+After opening the app in the IDE :
+
+Initially we need to create the virtual environment and activate it by using the following command:
+
+```
+
+PS C:\Users\S542298\Documents\GitHub\To-do-List> .\venv\bin\activate
+
+```
+
+After creation of the virtual environment install the requirements.txt file by using the following command
+
+```
+pip install -r requirements.txt
+```
+
+Then we need to run the following commands 
+
+```
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+```
+
 ---
 
 ### Deployment
