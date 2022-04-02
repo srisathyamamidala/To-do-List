@@ -67,6 +67,13 @@ Next we need to push the application to the github repo either by using the gith
 
 The app needs to be deployed using the heroku. Initially the new app is created in the heroku by giving the name then the github of that project should be connected and the main branch should be deployed and run the app locally. Whenever you make any change in the repo and if their is no progress in heroku do  manual deployment.
 
+After pushing the application to repo and connecting the github to the heroku we need to deploy it.
+
+The below is the link after deploying the application to the repo:
+
+[To-do-list application](https://todolistmamidala.herokuapp.com/)
+
+
 ---
 
 ### Links: 
