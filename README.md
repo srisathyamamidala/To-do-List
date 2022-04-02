@@ -106,7 +106,7 @@ We have written two test cases but we didn't get the report generated and hence 
 
 ### Snyk integration report:
 
-<img src="Snykreport.png" alt="snyk report" style="width:700px;"/>
+<img src="synkreport.png" alt="snyk report" style="width:700px;"/>
 
 
 
