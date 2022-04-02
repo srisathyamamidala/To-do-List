@@ -108,12 +108,17 @@ We have written two test cases but we didn't get the report generated and hence 
 
 <img src="synkreport.png" alt="snyk report" style="width:700px;"/>
 
+### Documentation 
+We have tried the documentation using the admin docs and the sphinx but we are not able to do it. We have created the super user but the local host is not getting opened
+<img src="documentation.png" alt="documentation report" style="width:700px;"/>
 
 
 
 
 
-#### The remaining details of the project will be added later while doing the project.
+
+
+
 
 
 
