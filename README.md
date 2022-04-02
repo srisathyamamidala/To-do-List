@@ -92,6 +92,25 @@ The below is the link after deploying the application to the repo:
 
 * [Codacy](https://app.codacy.com/gh/srisathyamamidala/To-do-List/dashboard)
 
+### Coverage report:
+
+<img src="coveragereport.png" alt="coverage report" style="width:700px;"/>
+
+### Unit test report:
+
+We have written two test cases but we didn't get the report generated and hence we are uploaded the screenshot of vscode
+
+### [Link to the unit test code](https://github.com/srisathyamamidala/To-do-List/blob/main/todos/tests.py)
+
+<img src="Unittest.png" alt="unit test report" style="width:700px;"/>
+
+### Snyk integration report:
+
+<img src="synkreport.png" alt="snyk report" style="width:700px;"/>
+
+
+
+
 
 
 #### The remaining details of the project will be added later while doing the project.
