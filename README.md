@@ -100,6 +100,8 @@ The below is the link after deploying the application to the repo:
 
 We have written two test cases but we didn't get the report generated and hence we are uploaded the screenshot of vscode
 
+### [Link to the unit test code](https://github.com/srisathyamamidala/To-do-List/blob/main/todos/tests.py)
+
 <img src="Unittest.png" alt="unit test report" style="width:700px;"/>
 
 
