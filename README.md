@@ -92,6 +92,10 @@ The below is the link after deploying the application to the repo:
 
 * [Codacy](https://app.codacy.com/gh/srisathyamamidala/To-do-List/dashboard)
 
+### Coverage report:
+
+<img src="coveragereport.png" alt="coverage report" style="width:700px;"/>
+
 
 
 #### The remaining details of the project will be added later while doing the project.
