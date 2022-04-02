@@ -96,6 +96,14 @@ The below is the link after deploying the application to the repo:
 
 <img src="coveragereport.png" alt="coverage report" style="width:700px;"/>
 
+### Unit test report:
+
+We have written two test cases but we didn't get the report generated and hence we are uploaded the screenshot of vscode
+
+<img src="Unittest.png" alt="unit test report" style="width:700px;"/>
+
+
+
 
 
 #### The remaining details of the project will be added later while doing the project.
