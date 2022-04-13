@@ -78,7 +78,7 @@ The below is the link after deploying the application to the repo:
 
 ### Links: 
 
-* [proposal](https://github.com/srisathyamamidala/GDP2-proposal)
+* [Link to proposal](https://github.com/srisathyamamidala/GDP2-proposal)
 * [Link to the swagger repo](https://github.com/srisathyamamidala/swagger-to-do-list)
 * [Link to wiki](https://github.com/srisathyamamidala/To-do-List/wiki)
 * [Link to issues](https://github.com/srisathyamamidala/To-do-List/issues)
