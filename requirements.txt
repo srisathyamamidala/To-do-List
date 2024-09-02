@@ -3,7 +3,7 @@ click==6.7
 dj-database-url==0.4.2
 Django==1.11.29
 djangorestframework==3.9.1
-gunicorn==19.7.1
+gunicorn==21.2.0
 packaging==16.8
 psycopg2==2.8.6
 pyparsing==2.2.0
